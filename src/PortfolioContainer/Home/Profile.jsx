@@ -48,9 +48,15 @@ export default function Profile() {
               {" "}
               Hire Me {" "}
             </button>
-            <a href="ehizcv.pdf" download="Shivam ehizcv.pdf" title="Opens in a new window" target="_black">
-              <button className="btn highlighted-btn">Get Resume</button>
+            <div class="cta-wrapper">
+            <a className="cta-primary" href="ehizcv.pdf" download="Shivam ehizcv.pdf" title="Download Resume" target="_blank">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  Get Resume
             </a>
+                  </div>
           </div>
         </div>
         <div className="profile-picture">

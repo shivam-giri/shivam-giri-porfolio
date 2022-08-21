@@ -5,13 +5,13 @@ import Nav  from "./PortfolioContainer/Nav/Nav";
 import Contact from "./PortfolioContainer/ContactMe/Contact";
 import About from "./PortfolioContainer/AboutMe/About";
 import Experience from "./PortfolioContainer/Experience/Experince"
-import Footer from "./PortfolioContainer/Home/WaveFolder/Wave"; 
+import Footer from "./PortfolioContainer/Footer/Footer"; 
 
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Profile />
+      <Nav />
       <Wave />
       <About />
       <Experience />

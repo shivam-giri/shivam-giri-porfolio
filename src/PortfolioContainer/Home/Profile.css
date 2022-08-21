@@ -80,6 +80,36 @@ background-position: center;
 .colz .colz-icon i:hover{
   transform: scale(1.5);
 }
+.profile-options{display: flex;justify-content: space-evenly;}
+
+.cta-primary{width: fit-content; padding:14px 25px;  
+  cursor: pointer; -webkit-tap-highlight-color: transparent;display: flex;
+  align-items: center;justify-content: center;color:white;
+  position: relative;z-index: 0;  text-transform: uppercase;      transition: all 0.5s ease 0s;
+  background: linear-gradient(to right, #1f2235 50%, transparent 50%);
+  background-size: 203% 100%;background-position: right bottom; text-decoration: none;}
+
+.cta-primary:hover{color: white;outline: 0px; background-position: left bottom;
+  transition-delay: 0.2s;text-decoration: none;}
+
+.cta-wrapper a span {position:absolute;  transition: all .3s;}
+.cta-wrapper a span:nth-child(1),
+.cta-wrapper a span:nth-child(3){width: 85%;height: 2px;background: white;}
+.cta-wrapper a span:nth-child(1){top:0;left:0;transform-origin: right;}
+.cta-wrapper a:hover span:nth-child(1) {width: 100%;}
+.cta-wrapper a span:nth-child(3){bottom:0;right: 0;transform-origin: left;height: 2px;
+  width: 86%;background: white;    
+transition: all 0.3s;transition-delay: 0.5s;}
+.cta-wrapper a:hover span:nth-child(3){bottom: 0;right: 0;transform-origin: left;
+  width: 100%;transition-delay: revert;}
+.cta-wrapper a span:nth-child(2),
+.cta-wrapper a span:nth-child(4){width: 2px;height: 61%;background: white;}
+.cta-wrapper a span:nth-child(2){top: 0;left: 0;transform-origin: bottom;transition: all 0.3s;transition-delay: 0.5s;}
+.cta-wrapper a:hover span:nth-child(2) {height: 100%;transition-delay: revert;}
+.cta-wrapper a span:nth-child(4){bottom: 0;right:0;}
+.cta-wrapper a:hover span:nth-child(4){transform: scale(1);transform-origin: bottom;height: 100%;}
+
+
 
 @media screen and (max-width:1110px) {
   .profile-picture{
