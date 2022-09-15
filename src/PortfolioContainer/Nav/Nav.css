@@ -8,9 +8,9 @@ nav{
   transform: translate(-50%);
   bottom: 2rem;
   display: flex;
-  gap: 0.8rem;
+  gap: 0.5rem;
   border-radius: 3rem;
-  backdrop-filter: blur;
+  backdrop-filter: blur(15px);
   background: var(--light-blue-shadow);
 }
 nav a{
@@ -18,7 +18,7 @@ nav a{
   padding: 0.9rem;
   border-radius: 50%;
   display: flex;
-  font-size: 1.1rem;
+  font-size: 2rem;
   text-decoration: none;
   height: 50px;
     width: 50px;
@@ -28,6 +28,7 @@ nav a{
 nav a:hover{
   background: var(--sea-green-shadow);
   text-decoration: none;
+  color: white;
 }
 nav a.active{
   background: var(--sea-green);

@@ -60,7 +60,9 @@
 
 html{
   scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
+::-webkit-scrollbar{display: none;}
 
 body {
   margin: 0;
@@ -68,22 +70,18 @@ body {
   font-family: "Poppins Regular";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  background-color: white;
-  overflow-x: hidden;
+  /* height: 100vh; */
+  background-color: transparent !important;
+  /* overflow: hidden; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 6px !important;
   height: 6px !important;
-}
+} */
 
-body ::-webkit-scrollbar-thumb {
+/* body ::-webkit-scrollbar-thumb {
   background-color: hsla(0, 0%, 100%, 0.16);
 }
 
@@ -93,44 +91,23 @@ body ::-webkit-scrollbar-thumb {
 
 ::-webkit-scrollbar-track {
   background: hsla(0, 0%, 100%, 0.1);
-}
-h1, h2, h3, h4, h5{font-weight: 500;}
-section{
-  margin-top: 8rem;
-}
-section > h2, section > h5{
-text-align: center;
-color: var(--sea-green-shadow);
-}
-
-a{
-  color: var(--orange);
-  transition: var(--dark-orange);
-}
-.btn {
-  padding: 14px 0;
-  width: 160px;
-  cursor: pointer;
-  transition: 0.2s;
-  font-family: "Poppins SemiBold";
-}
-
-.btn:active {
-  transform: translateY(2px);
-}
-
-.primary-btn {
-  color: var(--white);
-  border: 2px solid linen;
-  font-size: 15px;
-  background-color: #1f2235;
-  text-transform: uppercase;
-}
-/* @media only screen and (max-width: 414px) {
-  .primary-btn {
-    font-size: 13px;
-  }
 } */
+h1, h2, h3, h4, h5{font-weight: 500;}
+section{margin-top: 8rem;}
+section > h5{text-align: center;color: var(--dark-orange);}
+a{color: var(--orange);}
+section > h2{
+  -webkit-text-stroke-color: var(--dark-orange);
+  -webkit-text-fill-color: #02010100;
+  -webkit-text-stroke-width: 2px;
+  text-align: center;
+}
+.btn {width: fit-content; height: auto; cursor: pointer;transition: 0.2s;font-family: "Poppins SemiBold";}
+
+.btn:active {transform: translateY(2px);}
+
+.primary-btn {color: var(--white);    padding: 10px 31px;
+  border: 2px solid linen;font-size: 1.3rem;background-color: #1f2235;text-transform: uppercase;}
 
 .primary-btn:hover {
   color: aliceblue;
@@ -140,7 +117,6 @@ a{
 
 .highlighted-btn {
   color: var(--white);
-
   font-size: 12px;
   background-color: #ff5823;
 }
