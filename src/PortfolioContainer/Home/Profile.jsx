@@ -47,7 +47,7 @@ export default function Profile() {
                   ]}
                 />
               </h1>
-              <span>knack of building applications with fron and back end operations</span>
+              <span>knack of building applications with Front-end & Back-end operations</span>
             </span>
           </div>
           <div className="profile-options">
