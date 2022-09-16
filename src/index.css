@@ -95,7 +95,11 @@ body {
 h1, h2, h3, h4, h5{font-weight: 500;}
 section{margin-top: 8rem;}
 section > h5{text-align: center;color: var(--dark-orange);}
-a{color: var(--orange);}
+
+a:hover {
+  color: var(--orange);;
+  text-decoration: none !important; 
+}
 section > h2{
   -webkit-text-stroke-color: var(--dark-orange);
   -webkit-text-fill-color: #02010100;

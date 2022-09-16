@@ -19,10 +19,10 @@ const Footer = () =>{
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          <div className="footer__socials">
+          {/* <div className="footer__socials">
             <a href="">Facebook</a>
             <a href="">Instagram</a>    
-          </div>
+          </div> */}
           <div className="footer__copyright">
             <small>&copy; All right reserved</small>
           </div>

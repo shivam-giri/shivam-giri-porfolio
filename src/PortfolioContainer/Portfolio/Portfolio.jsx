@@ -1,6 +1,10 @@
 import React from "react";
 import './Portfolio.css';
-import IMG1 from '../../assests/Home/award.jpg';
+import IMG1 from '../../assests/Home/tablez.png';
+import IMG2 from '../../assests/Home/lrnr.png';
+import IMG3 from '../../assests/Home/newlook.png';
+import IMG4 from '../../assests/Home/xp-power.png';
+import IMG5 from '../../assests/Home/1800-flower.png';
 import { Navigation, Pagination } from 'swiper';
 import { EffectCoverflow } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,33 +19,41 @@ const data = [
   {
     id : 1,
     image : IMG1,
-    title : 'git hub live profile search',
-    github : 'github.com',
-    demo : 'https://github.com/shivam-giri'
+    title : 'Tablez',
+    desc : '- E-commerce Website created using NuxtJs',
+    demo : 'https://tablez.com/'
 
   },
   {
     id : 2,
-    image : IMG1,
-    title : 'git hub live profile search',
-    github : 'github.com',
-    demo : 'https://github.com/shivam-giri'
+    image : IMG2,
+    title : 'LrNr',
+    desc : '- Learning plateform for students by watching videos and attemplting Quiz.',
+    demo : 'https://lrnr.in/'
 
   },
   {
     id : 3,
-    image : IMG1,
-    title : 'git hub live profile search',
-    github : 'github.com',
-    demo : 'https://github.com/shivam-giri'
+    image : IMG3,
+    title : 'New Look',
+    desc : '- IR site of New Look Group developed on Sitecore CMS',
+    demo : 'https://www.newlookgroup.com/'
 
   },
   {
     id : 4,
-    image : IMG1,
-    title : 'git hub live profile search',
-    github : 'github.com',
-    demo : 'https://github.com/shivam-giri'
+    image : IMG4,
+    title : 'Xp - Power',
+    desc : '- Investor relation site developed on Sitecore CMS',
+    demo : 'https://corporate.xppower.com/'
+
+  },
+  {
+    id : 5,
+    image : IMG5,
+    title : '1-800 Flower',
+    desc : '- Investor relation site developed on Sitecore CMS',
+    demo : 'https://www.1800flowersinc.com/'
 
   }
 ]
@@ -90,16 +102,15 @@ const Portfolio = () =>{
             onSlideChange={() => console.log('slide change')}
       >
          {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, desc, demo}) => {
             return(
               <SwiperSlide key={id} className="portfolio__item">
               <div className="portfolio__item-image">
                 <img src={image} alt={title} />
               </div>
-              <h4>{title}</h4>
-              <div className="cta-wrapper">
-                  <button href={github} className="btn primary-btn">Github</button>
-                  <a href={demo} className="btn btn-priary" target="_blank" rel="noreferrer">Live Demo</a>
+              <h4>{title} <span className="description">{desc}</span></h4>
+              <div className="cta-wrapper luxury">
+                  <a href={demo} className="glow-on-hover" target="_blank" rel="noreferrer">Visit Site</a>
               </div>
             </SwiperSlide>
   
