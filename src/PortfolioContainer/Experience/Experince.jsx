@@ -21,14 +21,14 @@ const Experience = () =>{
             <AiFillHtml5 />
               <div>
               <h5>HTML</h5>
-              <small className="text-light">Experinced</small>
+              <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
             <DiCss3 />
              <div>
               <h5>CSS</h5>
-              <small className="text-light">Experinced</small>
+              <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -70,7 +70,7 @@ const Experience = () =>{
             <FaSitemap />
               <div>
               <h5>Sitecore CMS</h5>
-              <small className="text-light">Experinced</small>
+              <small className="text-light">Experienced</small>
               </div>
             </article>
         </div>
@@ -90,14 +90,14 @@ const Experience = () =>{
             <AiOutlineConsoleSql />
               <div>
               <h5>SQL</h5>
-              <small className="text-light">Inetrmediate</small>
+              <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
             <DiMysql />
               <div>
               <h5>MySql</h5>
-              <small className="text-light">Inetrmediate</small>
+              <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -111,7 +111,7 @@ const Experience = () =>{
             <AiFillGithub />
               <div>
               <h5>Git & Github</h5>
-              <small className="text-light">Inetermediate</small>
+              <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
