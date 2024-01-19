@@ -51,21 +51,21 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <div>
-            <a href="#contact" className="btn primary-btn">
-              {" "}
-              Hire Me {" "}
-            </a>
+            
+            <div className="cta-wrapper luxury">
+                <a href="#contact" className="glow-on-hover">Let's Talk</a>
             </div>
-            <div class="cta-wrapper">
-            <a className="cta-primary" href="shivam-resume.pdf" download="Shivam shivam-resume.pdf" title="Download Resume" target="_blank">
+            
+            <div class="cta-wrapper luxury">
+            <a href="shivam-resume.pdf" className="glow-on-hover" download="Shivam shivam-resume.pdf" title="Download Resume" target="_blank">Download Resume</a>
+            {/* <a className="cta-primary" href="shivam-resume.pdf" download="Shivam shivam-resume.pdf" title="Download Resume" target="_blank">
                   <span></span>
                   <span></span>
                   <span></span>
                   <span></span>
                   Get Resume
-            </a>
-                  </div>
+            </a> */}
+            </div>
           </div>
         </div>
         <div className="profile-picture">

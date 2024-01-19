@@ -5,9 +5,6 @@ import {FaBookReader} from 'react-icons/fa';
 import {MdSummarize} from 'react-icons/md';
 import {AiFillProject} from 'react-icons/ai';
 import {RiMessage2Fill} from 'react-icons/ri';
-
-
-
 import './Nav.css';
 
 const Nav = () =>{

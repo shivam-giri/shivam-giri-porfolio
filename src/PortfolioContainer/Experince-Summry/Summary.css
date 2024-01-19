@@ -13,9 +13,7 @@
   transition: var(--transition);
   color: #fff;
 }
-.service:hover{
-  transform: scale(1.01);
-}
+
 .service__head{
   /* background-color: var(--light-blue); */
   background: linear-gradient( 45deg, transparent, var(--sea-green-dark), transparent );

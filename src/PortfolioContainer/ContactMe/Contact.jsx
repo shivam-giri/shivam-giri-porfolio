@@ -49,7 +49,10 @@ const Contact = () =>{
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="email" name="eame" placeholder="Your Email" required />
           <textarea type="text" name="message" rows="7" placeholder="Your Message" required />
-          <button className="btn primary-btn">Send Message</button>
+          {/* <button className="btn primary-btn">Send Message</button> */}
+          <div className="cta-wrapper luxury">
+             <button href="#contac" className="glow-on-hover" target="_blank" rel="noreferrer">Send Message</button>
+          </div>
         </form>
       </div>
     </section>

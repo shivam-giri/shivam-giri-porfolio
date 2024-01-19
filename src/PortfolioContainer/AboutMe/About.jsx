@@ -19,7 +19,10 @@ const About = () =>{
             <p class="about-me-text">
             I am a Front-end Developer with 2 years of commercial experience and post-graduate as Master of Computer Application(MCA) in 2020 from Birla Institute of Technology(BIT). I create successful websites that are fast, easy to use, and built with best practices.
             </p>
-            <a href="#contact" class="button-49"> Let's Talk</a>
+            {/* <a href="#contact" class="button-49"> Let's Talk</a> */}
+          <div className="cta-wrapper luxury">
+                <a href="#contact" className="glow-on-hover">Let's Talk</a>
+            </div>
           </div>
           {/* <button class="button-49" role="button">Button 49</button> */}
         </div>

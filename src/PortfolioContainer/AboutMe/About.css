@@ -19,7 +19,7 @@ p.about-me-text {
   font-family: 'Poppins SemiBold';
   font-size: 1.4rem;
   text-shadow: 0 0 3px #ff000000, 0 0 5px rgb(0 123 255 / 50%);
-  color: darkcyan;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 991.98px) {
